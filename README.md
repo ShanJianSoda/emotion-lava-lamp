@@ -17,7 +17,7 @@ A Python reference implementation that maps continuous VAD emotion values (`Vale
 pytest -q
 ```
 
-## Integrate
+
 
 - Replace `get_global_vad()` in `emotion_lava_lamp.py` with your upstream source.
 - Create an `EmotionLavaLampEngine` and call `tick(dt)` each frame.
